@@ -1,4 +1,83 @@
-body{
-    background-color: burlywood;
-    text-align: center;
+body {
+  background-color: #95e8d7;
+  text-align: center;
+  font-family: fantasy;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 100px auto;
+  max-width: 800px;
+}
+
+header {
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 1.5;
+}
+
+form {
+  padding: 20px;
+  background-color: beige;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px; /* space between input and button */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.instructions {
+  padding: 16px;
+  border: 1px solid rgba(245, 40, 145, 0.63);
+  width: 70%;
+  font-size: 15px;
+  border-radius: 50px;
+  line-height: 15px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.instructions:focus {
+  border-color: rgba(245, 40, 145, 1);
+  box-shadow: 0px 0px 8px rgba(245, 40, 145, 0.4);
+}
+
+/* 🔘 Submit button styling */
+form input[type="submit"] {
+  background-color: rgba(245, 40, 145, 0.8);
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 16px 25px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+form input[type="submit"]:hover {
+  background-color: rgba(245, 40, 145, 1);
+  transform: scale(1.05);
+}
+
+.quotes {
+  margin-top: 30px;
+}
+
+.quotes blockquote {
+  font-size: 18px;
+  font-family: 'Shadows Into Light', cursive;
+  font-style: italic;
+  margin: 20px auto;
+  padding: 15px;
+  border-left: 5px solid rgba(245, 40, 145, 0.8);
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  max-width: 600px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }

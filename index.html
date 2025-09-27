@@ -3,35 +3,48 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="src/style.css" />
     <title>AI Quotes</title>
   </head>
   <body>
-    <h1>Welcome to AI Quotes Generator</h1>
-    <main>
-        <form>
-            <input type="text" placeholder="Enter topic of quote" autofocus required autocomplete="off"/>
-            <input type="submit"/>
-        </form>
-        <br/>
-        <br/>
-        <div>
-            You must be the change you wish to see in the world."
-        <br/>
-    <br/>
-        "It is never too late to be what you might have been"
-<br/>
-        </br>
+    <div class="container">
+      <header>
+        <h1>Welcome to AI Quotes Generator</h1>
+      </header>
 
-        </div>
-    </main>
-    <footer>
-      This AI Project was coded by Thamandree Govender (Ronel) and is
-      <a href="https://github.com/Ronel518/quotes---generator" target="_blank">
-        open-sourced on GitHub</a
-      >
-      and is <a href="https://ai-quote-generatorp.netlify.app/" target="=_blank" >on Netlify</a>
-    </footer>
+      <main>
+        <form>
+          <input 
+            type="text" 
+            placeholder="Enter topic of quote"
+            autofocus 
+            required 
+            autocomplete="off" 
+            class="instructions"
+          />
+          <input type="submit" value="Generate" />
+        </form>
+
+        <section class="quotes">
+          <blockquote>"You must be the change you wish to see in the world."</blockquote>
+          <blockquote>"It is never too late to be what you might have been."</blockquote>
+        </section>
+      </main>
+
+      <footer>
+        This AI Project was coded by Thamandree Govender (Ronel) and is
+        <a href="https://github.com/Ronel518/quotes---generator" target="_blank">
+          open-sourced on GitHub
+        </a>
+        and is 
+        <a href="https://ai-quote-generatorp.netlify.app/" target="_blank">
+          on Netlify
+        </a>
+      </footer>
+    </div>
+
     <script src="src/index.js"></script>
   </body>
 </html>
