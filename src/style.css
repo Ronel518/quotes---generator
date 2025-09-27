@@ -67,10 +67,7 @@ form input[type="submit"]:hover {
 
 .quotes {
   margin-top: 30px;
-}
-
-.quotes blockquote {
-  font-size: 18px;
+    font-size: 18px;
   font-family: 'Shadows Into Light', cursive;
   font-style: italic;
   margin: 20px auto;
