@@ -108,7 +108,6 @@ footer a:hover {
   text-decoration: underline;
 }
 
-/* New styles for loading message */
 #quotes .loading {
   display: block !important;
   text-align: center !important;
